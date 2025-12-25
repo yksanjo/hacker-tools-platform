@@ -77,6 +77,22 @@ hacker-tools-platform/
 - `GET /api/tools/trending` - Get trending tools
 - `GET /api/categories` - Get all categories
 
+## Deployment
+
+The repository is ready to be pushed to GitHub. See `DEPLOYMENT.md` for detailed deployment instructions.
+
+### Quick GitHub Setup
+
+1. Create a new repository on GitHub (don't initialize with README)
+2. Run these commands:
+
+```bash
+git remote add origin https://github.com/YOUR_USERNAME/hacker-tools-platform.git
+git push -u origin main
+```
+
+Replace `YOUR_USERNAME` with your GitHub username.
+
 ## Contributing
 
 This is a community-driven platform. Feel free to submit tools, improvements, and feedback!
