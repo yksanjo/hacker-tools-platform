@@ -1,5 +1,9 @@
 # Security Tool Discovery & Sharing Platform
 
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)](https://www.javascript.com/) [![GitHub stars](https://img.shields.io/github/stars/yksanjo/hacker-tools-platform?style=social)](https://github.com/yksanjo/hacker-tools-platform/stargazers) [![GitHub forks](https://img.shields.io/github/forks/yksanjo/hacker-tools-platform.svg)](https://github.com/yksanjo/hacker-tools-platform/network/members) [![GitHub issues](https://img.shields.io/github/issues/yksanjo/hacker-tools-platform.svg)](https://github.com/yksanjo/hacker-tools-platform/issues)
+[![Last commit](https://img.shields.io/github/last-commit/yksanjo/hacker-tools-platform.svg)](https://github.com/yksanjo/hacker-tools-platform/commits/main)
+
+
 A modern platform for the hacker community to discover, share, and rate security tools. Built for security researchers, penetration testers, and cybersecurity enthusiasts.
 
 ## Features
