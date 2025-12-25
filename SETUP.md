@@ -166,3 +166,4 @@ The built files will be in `frontend/dist/`
 - Add tool comparison features
 - Implement advanced search with filters
 
+
