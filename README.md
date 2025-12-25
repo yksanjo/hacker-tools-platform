@@ -1,5 +1,26 @@
 # Security Tool Discovery & Sharing Platform
 
+![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![GitHub stars](https://img.shields.io/github/stars/yksanjo/hacker-tools-platform?style=social)
+
+
+## 📸 Screenshots
+
+### Main Dashboard
+![Dashboard](screenshots/dashboard.png)
+*Main interface and key features*
+
+### Additional Views
+![Features](screenshots/features.png)
+*Additional functionality and views*
+
+> **Note**: Screenshots will be added to the `screenshots/` directory. To add your own:
+> 1. Take screenshots of your application
+> 2. Save them in a `screenshots/` folder  
+> 3. Update the image paths above
+
+
 A modern platform for the hacker community to discover, share, and rate security tools. Built for security researchers, penetration testers, and cybersecurity enthusiasts.
 
 ## Features
