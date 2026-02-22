@@ -1,124 +1,82 @@
-# Security Tool Discovery & Sharing Platform
+# hacker-tools-platform
 
-![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-![GitHub stars](https://img.shields.io/github/stars/yksanjo/hacker-tools-platform?style=social)
+## Detailed Description
 
+hacker-tools-platform is maintained as an industry-grade software project with production-ready engineering practices.  
+This repository includes documented setup, quality gates, operational guidance, and governance standards so contributors can safely build, test, and ship changes with confidence.
 
-## 📸 Screenshots
+## Problem Statement
 
-### Main Dashboard
-![Dashboard](screenshots/dashboard.png)
-*Main interface and key features*
+Describe the user or business problem this project solves, the target users, and expected outcomes.
 
-### Additional Views
-![Features](screenshots/features.png)
-*Additional functionality and views*
+## Solution Overview
 
-> **Note**: Screenshots will be added to the `screenshots/` directory. To add your own:
-> 1. Take screenshots of your application
-> 2. Save them in a `screenshots/` folder  
-> 3. Update the image paths above
+Summarize the architecture, core modules, and runtime behavior at a high level.
 
+## Key Features
 
-A modern platform for the hacker community to discover, share, and rate security tools. Built for security researchers, penetration testers, and cybersecurity enthusiasts.
+- Clear project scope and intended use.
+- Reproducible local development workflow.
+- Test coverage and CI quality gates.
+- Security and contribution policies.
+- Deployment-ready repository structure.
 
-## Features
+## Repository Structure
 
-- 🔍 **Tool Discovery**: Browse and search security tools by category, language, and tags
-- ⭐ **Rating System**: Rate and review tools with community feedback
-- 📝 **Tool Sharing**: Submit new tools with descriptions, installation guides, and examples
-- 🏷️ **Tagging System**: Organize tools with tags (crypto, web, network, etc.)
-- 📊 **Trending Tools**: See what's popular in the community
-- 🔗 **GitHub Integration**: Direct links to repositories and documentation
-- 💬 **Community Reviews**: Read and write reviews from other security researchers
+```text
+.
+|-- src/                  # Core implementation
+|-- tests/                # Automated test suites
+|-- docs/                 # Design notes and operational docs
+|-- .github/workflows/    # CI pipelines
+|-- README.md
+|-- LICENSE
+|-- CONTRIBUTING.md
+|-- SECURITY.md
+|-- CODE_OF_CONDUCT.md
+```
 
-## Tech Stack
+## Getting Started
 
-- **Backend**: FastAPI (Python)
-- **Frontend**: React with TypeScript
-- **Database**: SQLite (easily upgradeable to PostgreSQL)
-- **Styling**: Tailwind CSS
+### Prerequisites
 
-## Quick Start
+- Git
+- Project runtime/toolchain for this repo
 
-### Backend Setup
+### Local Setup
 
 ```bash
-cd backend
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-uvicorn main:app --reload
+make test
+make lint
 ```
 
-Backend will run on `http://localhost:8000`
+## Usage
 
-### Frontend Setup
+Document primary commands, API routes, CLI examples, or UI workflows here.
 
-```bash
-cd frontend
-npm install
-npm run dev
-```
+## Quality Standards
 
-Frontend will run on `http://localhost:3000`
+- CI must pass before merge.
+- Changes require tests for critical behavior.
+- Security-sensitive changes should include risk notes.
+- Keep pull requests focused and reviewable.
 
-### API Documentation
+## Security
 
-Once the backend is running, visit:
-- Swagger UI: `http://localhost:8000/docs`
-- ReDoc: `http://localhost:8000/redoc`
-
-## Project Structure
-
-```
-hacker-tools-platform/
-├── backend/
-│   ├── main.py              # FastAPI application
-│   ├── schemas.py           # Pydantic schemas
-│   ├── database.py          # Database models and setup
-│   └── requirements.txt     # Python dependencies
-├── frontend/
-│   ├── src/
-│   │   ├── components/      # React components
-│   │   ├── pages/           # Page components
-│   │   └── App.tsx          # Main app component
-│   └── package.json
-└── README.md
-```
-
-## API Endpoints
-
-- `GET /api/tools` - List all tools with filtering
-- `GET /api/tools/{id}` - Get tool details
-- `POST /api/tools` - Submit a new tool
-- `PUT /api/tools/{id}` - Update tool information
-- `POST /api/tools/{id}/ratings` - Rate a tool
-- `GET /api/tools/trending` - Get trending tools
-- `GET /api/categories` - Get all categories
-
-## Deployment
-
-The repository is ready to be pushed to GitHub. See `DEPLOYMENT.md` for detailed deployment instructions.
-
-### Quick GitHub Setup
-
-1. Create a new repository on GitHub (don't initialize with README)
-2. Run these commands:
-
-```bash
-git remote add origin https://github.com/YOUR_USERNAME/hacker-tools-platform.git
-git push -u origin main
-```
-
-Replace `YOUR_USERNAME` with your GitHub username.
+See `SECURITY.md` for responsible disclosure and handling guidelines.
 
 ## Contributing
 
-This is a community-driven platform. Feel free to submit tools, improvements, and feedback!
+See `CONTRIBUTING.md` for branching, commit, and pull request expectations.
+
+## Roadmap
+
+Track upcoming milestones, technical debt, and planned feature work.
+
+## Support
+
+Open a GitHub issue for bugs, feature requests, or documentation gaps.
 
 ## License
 
-MIT
-
+This project is released under the MIT License.
